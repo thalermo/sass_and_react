@@ -1,20 +1,3 @@
-.h1 {
-}
-
-.logo {
-} /* CSS class for the `logo` block */
-
-.logo__img {
-} /* CSS class for the `logo__img` element */
-
-.logo_theme_islands {
-} /* CSS class for the `logo_theme_islands` modifier */
-
-.user {
-} /* CSS class for the `user` block */
-
-.user__img {
-} /* CSS class for the `user__img` element */
-
-.user_theme_islands {
-} /* CSS class for the `user_theme_islands` modifier */
+@use './sass/base';
+@use './sass/components';
+@use './sass/layout';
