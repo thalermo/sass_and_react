@@ -18,7 +18,7 @@ function App() {
 
       {/* logo block */}
       <div className="log logo_theme_islands">
-        <img src="URL" alt="logo" className="logo__img" />
+        <img src={state.logo} alt="logo" className="logo__img" />
       </div>
 
       {/* user block  */}
