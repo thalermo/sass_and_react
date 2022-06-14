@@ -1,4 +1,5 @@
 import './main.css';
+
 import pink_lady_vid from './assets/videos/ekaterina-bolovtsova.mp4';
 import pink_lady_img from './assets/images/pink_lady_img.png';
 import sass_logo from './assets/images/sass-icon.svg';
