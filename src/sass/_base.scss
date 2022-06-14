@@ -18,15 +18,25 @@ $fontSizeSubTittle: 2rem;
 //! **** extends ****
 
 //! *** base ****
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #7fffd4;
+}
+
+.App {
+  margin-top: 3rem;
 }
 
 //* typography
 .h1 {
   font-family: $fontFamTittle;
   font-size: $fontSizeTittle;
-  width: fit-content;
   text-align: center;
 
   &__sub-tittle {

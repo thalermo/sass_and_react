@@ -16,8 +16,7 @@ function App() {
     <div className="App">
       <h1 className="h1">
         Explain Sass 💅
-        <br />
-        <span className="h1__sub-tittle">Syntactically Awesome Stylesheet</span>
+        <p className="h1__sub-tittle">Syntactically Awesome Stylesheet</p>
       </h1>
 
       {/* logo block */}
