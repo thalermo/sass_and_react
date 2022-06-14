@@ -18,7 +18,16 @@ body {
   font-family: pauline, sans-serif;
   font-size: 4rem;
   text-align: center;
+  display: inline-block;
 }
 .h1__sub-tittle {
   font-size: 2rem;
+}
+
+.log {
+  display: inline-block;
+  width: 30vw;
+}
+.log_img {
+  width: 100%;
 }

@@ -14,15 +14,16 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="h1">
-        Explain Sass 💅
-        <p className="h1__sub-tittle">Syntactically Awesome Stylesheet</p>
-      </h1>
-
       {/* logo block */}
       <div className="log logo_theme_islands">
         <img src={state.logo} alt="logo" className="logo__img" />
       </div>
+
+      {/* title & subtitle  */}
+      <h1 className="h1">
+        Explain Sass 💅
+        <p className="h1__sub-tittle">Syntactically Awesome Stylesheet</p>
+      </h1>
 
       {/* user block  */}
       <div className="user user_theme_islands">

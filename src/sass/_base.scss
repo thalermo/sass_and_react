@@ -38,8 +38,18 @@ body {
   font-family: $fontFamTittle;
   font-size: $fontSizeTittle;
   text-align: center;
+  display: inline-block;
 
   &__sub-tittle {
     font-size: $fontSizeSubTittle;
+  }
+}
+
+// * Images
+.log {
+  display: inline-block;
+  width: 30vw;
+  &_img {
+    width: 100%;
   }
 }
