@@ -37,6 +37,11 @@ function App() {
           poster={state.poster}
         />
       </div>
+      <div className="buttons">
+        <button className="buttons__btn-sass">Sass</button>
+        <button className="buttons__btn-absolutely">absolutely</button>
+        <button className="buttons__btn-awesome">Awesome</button>
+      </div>
     </div>
   );
 }

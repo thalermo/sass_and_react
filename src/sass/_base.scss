@@ -16,16 +16,34 @@
 // fonts & style
 $fontFamTittle: Roboto Slab, serif;
 $fontFamBody: bilo, sans-serif;
-$fontSizeTittle: 8rem;
-$fontSizeSubTittle: 3.5rem;
+$fontSizeTittle: 7.5rem;
+$fontSizeSubTittle: 2.5rem;
 
 //colors
 $red: red;
 $yellow: yellow;
-
-//! **** mixins ****
+$primaryCOlor: #ae0277;
 
 //! **** extends ****
+%buttons {
+  display: inline-block;
+  font-family: $fontFamTittle;
+  font-weight: 600;
+  font-size: 2rem;
+  width: fit-content;
+  margin: 1rem;
+  padding: 12px 17px;
+  color: $primaryCOlor;
+  border: dashed;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+//! **** mixins ****
 
 //! *** base ****
 

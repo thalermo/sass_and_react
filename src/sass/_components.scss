@@ -1,0 +1,13 @@
+@use './base';
+
+.buttons {
+  &__btn-sass {
+    @extend %buttons;
+  }
+  &__btn-absolutely {
+    @extend %buttons;
+  }
+  &__btn-awesome {
+    @extend %buttons;
+  }
+}
