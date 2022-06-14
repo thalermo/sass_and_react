@@ -8,8 +8,10 @@
 //! **** variables ****
 
 // fonts & style
-$fontTitle: pauline, sans-serif;
-$fontBody: bilo, sans-serif;
+$fontFamTittle: pauline, sans-serif;
+$fontFamBody: bilo, sans-serif;
+$fontSizeTittle: 4rem;
+$fontSizeSubTittle: 2rem;
 
 //! **** mixins ****
 
@@ -21,3 +23,13 @@ body {
 }
 
 //* typography
+.h1 {
+  font-family: $fontFamTittle;
+  font-size: $fontSizeTittle;
+  width: fit-content;
+  text-align: center;
+
+  &__sub-tittle {
+    font-size: $fontSizeSubTittle;
+  }
+}
