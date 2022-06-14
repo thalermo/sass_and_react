@@ -15,8 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "sass":"sass src/main.scss src/main.css --watch --no-source-map --style compressed",
-    "
+    "sass": "sass src/main.scss src/main.css --watch --no-source-map",
+    "dev": "concurrently \"npm start\" \"npm run scss\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
