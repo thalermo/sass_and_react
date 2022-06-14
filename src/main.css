@@ -8,7 +8,7 @@
   font-weight: 600;
   font-size: 2rem;
   width: fit-content;
-  margin: 1rem;
+  margin: 1.8rem 2rem;
   padding: 12px 17px;
   color: #ae0277;
   border: dashed;
@@ -28,7 +28,6 @@
 
 body {
   background-color: #7fffd4;
-  background-color: yellow;
   overflow: hidden;
 }
 

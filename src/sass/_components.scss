@@ -1,13 +1,18 @@
 @use './base';
 
 .buttons {
+  // width: 100vw;
+  // text-align: center;
   &__btn-sass {
     @extend %buttons;
+    // background: darken(base.$red, 50%);
   }
   &__btn-absolutely {
     @extend %buttons;
+    // background: mix(base.$red, base.$yellow, 15%);
   }
   &__btn-awesome {
     @extend %buttons;
+    // background: lighten(base.$primaryColor, 55%);
   }
 }

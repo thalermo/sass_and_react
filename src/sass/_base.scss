@@ -22,7 +22,7 @@ $fontSizeSubTittle: 2.5rem;
 //colors
 $red: red;
 $yellow: yellow;
-$primaryCOlor: #ae0277;
+$primaryColor: #ae0277;
 
 //! **** extends ****
 %buttons {
@@ -31,9 +31,9 @@ $primaryCOlor: #ae0277;
   font-weight: 600;
   font-size: 2rem;
   width: fit-content;
-  margin: 1rem;
+  margin: 1.8rem 2rem;
   padding: 12px 17px;
-  color: $primaryCOlor;
+  color: $primaryColor;
   border: dashed;
   border-radius: 4px;
   outline: none;
@@ -65,7 +65,7 @@ body {
   //* rgba with %
   // background-color: rgba($yellow, 20%);
   //* mix
-  background-color: mix($yellow, $red, 100%);
+  // background-color: mix($yellow, $red, 100%);
 
   overflow: hidden;
 }
