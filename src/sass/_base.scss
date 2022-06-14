@@ -1,11 +1,23 @@
+//* imported fonts
+//pauline adobe fonts
+@import url('https://use.typekit.net/xwj0kax.css');
+
+// Bilo from adobe fonts
+@import url('https://use.typekit.net/xwj0kax.css');
+
 //! **** variables ****
+
+// fonts & style
+$fontTitle: pauline, sans-serif;
+$fontBody: bilo, sans-serif;
 
 //! **** mixins ****
 
 //! **** extends ****
 
 //! *** base ****
-
 body {
   background-color: aquamarine;
 }
+
+//* typography
