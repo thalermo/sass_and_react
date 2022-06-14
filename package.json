@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "sass": "sass src/main.scss src/main.css --watch --no-source-map",
-    "dev": "concurrently \"npm start\" \"npm run scss\"",
+    "dev": "concurrently \"npm start\" \"npm run sass\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
