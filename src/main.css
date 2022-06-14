@@ -10,7 +10,8 @@
 
 body {
   background-color: #7fffd4;
-  overflow-x: hidden;
+  background-color: yellow;
+  overflow: hidden;
 }
 
 .h1 {
@@ -19,13 +20,13 @@ body {
   display: inline-block;
   width: 100vw;
   font-weight: 400;
-  margin-top: -4rem;
+  margin-top: 0rem;
   line-height: 1.2;
-  letter-spacing: 2px;
 }
 .h1__sub-tittle {
   font-size: 3.5rem;
-  letter-spacing: 1.5px;
+  font-family: bilo, sans-serif;
+  letter-spacing: 2px;
   font-weight: normal;
 }
 
@@ -46,6 +47,5 @@ body {
 }
 .user video {
   min-width: 50rem;
-  max-width: 70vw;
-  height: auto;
+  max-width: 55vw;
 }
