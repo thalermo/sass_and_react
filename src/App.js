@@ -14,7 +14,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="h1">Explain Sass 💅</h1>
+      <h1 className="h1">
+        Explain Sass 💅
+        <br />
+        <span className="h1__sub-title">Syntactically Awesome Stylesheet</span>
+      </h1>
 
       {/* logo block */}
       <div className="log logo_theme_islands">
@@ -25,11 +29,11 @@ function App() {
       <div className="user user_theme_islands">
         <video
           src={state.video}
-          alt="dancing mood"
+          autoPlay
           className="user__vid"
           loop
           muted
-          height="100%"
+          // height="100%"
           poster={state.poster}
         />
       </div>
