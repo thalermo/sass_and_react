@@ -45,6 +45,14 @@ $primaryColor: #ae0277;
 
 //! **** mixins ****
 
+@mixin square($sizeWidth, $borderSize) {
+  width: $sizeWidth;
+  height: auto;
+  border: dashed $borderSize darken($primaryColor, 20%);
+}
+
+//! ***  if else ***
+
 //! *** base ****
 
 * {
@@ -72,6 +80,12 @@ body {
 
 .App {
   // margin-top: 3rem;
+  // text-align: center;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // position: relative;
 }
 
 //* typography

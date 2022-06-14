@@ -2,7 +2,7 @@
 
 .buttons {
   // width: 100vw;
-  // text-align: center;
+  text-align: center;
   &__btn-sass {
     @extend %buttons;
     // background: darken(base.$red, 50%);

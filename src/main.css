@@ -66,3 +66,14 @@ body {
   min-width: 50rem;
   max-width: 55vw;
 }
+
+.buttons {
+  text-align: center;
+}
+.user_theme_islands {
+  width: fit-content;
+  height: auto;
+  border: dashed 5px #490132;
+  margin-left: auto;
+  margin-right: auto;
+}

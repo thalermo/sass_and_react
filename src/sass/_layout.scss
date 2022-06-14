@@ -1,0 +1,7 @@
+@use './base';
+
+.user_theme_islands {
+  @include base.square(fit-content, 5px);
+  margin-left: auto;
+  margin-right: auto;
+}
