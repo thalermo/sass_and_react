@@ -23,7 +23,15 @@ function App() {
 
       {/* user block  */}
       <div className="user user_theme_islands">
-        <video src="URL" alt="dancing mood" className="user__vid" />
+        <video
+          src={state.video}
+          alt="dancing mood"
+          className="user__vid"
+          loop
+          muted
+          height="100%"
+          poster={state.poster}
+        />
       </div>
     </div>
   );
