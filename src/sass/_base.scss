@@ -5,13 +5,19 @@
 // Bilo from adobe fonts
 @import url('https://use.typekit.net/xwj0kax.css');
 
+// font-family: scotch-display, sans-serif;
+@import url('https://use.typekit.net/xwj0kax.css');
+
+// google fonts font-family: 'Roboto Slab', serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap');
+
 //! **** variables ****
 
 // fonts & style
-$fontFamTittle: pauline, sans-serif;
+$fontFamTittle: Roboto Slab, serif;
 $fontFamBody: bilo, sans-serif;
-$fontSizeTittle: 4rem;
-$fontSizeSubTittle: 2rem;
+$fontSizeTittle: 8rem;
+$fontSizeSubTittle: 3.5rem;
 
 //! **** mixins ****
 
@@ -27,29 +33,51 @@ $fontSizeSubTittle: 2rem;
 
 body {
   background-color: #7fffd4;
+  overflow-x: hidden;
 }
 
 .App {
-  margin-top: 3rem;
+  // margin-top: 3rem;
 }
 
 //* typography
 .h1 {
-  font-family: $fontFamTittle;
+  // font-family: $fontFamTittle;
   font-size: $fontSizeTittle;
   text-align: center;
   display: inline-block;
+  width: 100vw;
+  font-weight: 400;
+  margin-top: -4rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
 
   &__sub-tittle {
     font-size: $fontSizeSubTittle;
+    letter-spacing: 1.5px;
+    font-weight: normal;
   }
 }
 
 // * Images
 .log {
-  display: inline-block;
-  width: 30vw;
+  margin-inline: 2rem;
+  margin-top: 1.5rem;
+  display: block;
+  width: 10rem;
+  height: auto;
+
   &_img {
     width: 100%;
+  }
+}
+
+.user {
+  text-align: center;
+  margin-top: 1rem;
+  video {
+    min-width: 50rem;
+    max-width: 70vw;
+    height: auto;
   }
 }

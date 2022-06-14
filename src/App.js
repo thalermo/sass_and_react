@@ -33,7 +33,7 @@ function App() {
           className="user__vid"
           loop
           muted
-          // height="100%"
+          // height="90%"
           poster={state.poster}
         />
       </div>

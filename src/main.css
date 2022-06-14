@@ -1,5 +1,7 @@
 @import url("https://use.typekit.net/xwj0kax.css");
 @import url("https://use.typekit.net/xwj0kax.css");
+@import url("https://use.typekit.net/xwj0kax.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,26 +10,42 @@
 
 body {
   background-color: #7fffd4;
-}
-
-.App {
-  margin-top: 3rem;
+  overflow-x: hidden;
 }
 
 .h1 {
-  font-family: pauline, sans-serif;
-  font-size: 4rem;
+  font-size: 8rem;
   text-align: center;
   display: inline-block;
+  width: 100vw;
+  font-weight: 400;
+  margin-top: -4rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
 }
 .h1__sub-tittle {
-  font-size: 2rem;
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+  font-weight: normal;
 }
 
 .log {
-  display: inline-block;
-  width: 30vw;
+  margin-inline: 2rem;
+  margin-top: 1.5rem;
+  display: block;
+  width: 10rem;
+  height: auto;
 }
 .log_img {
   width: 100%;
+}
+
+.user {
+  text-align: center;
+  margin-top: 1rem;
+}
+.user video {
+  min-width: 50rem;
+  max-width: 70vw;
+  height: auto;
 }
