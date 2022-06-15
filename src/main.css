@@ -1,8 +1,11 @@
-@import url("https://use.typekit.net/xwj0kax.css");
-@import url("https://use.typekit.net/xwj0kax.css");
-@import url("https://use.typekit.net/xwj0kax.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap");
-.buttons__btn-sass, .buttons__btn-absolutely, .buttons__btn-awesome {
+@import url('https://use.typekit.net/xwj0kax.css');
+@import url('https://use.typekit.net/xwj0kax.css');
+@import url('https://use.typekit.net/xwj0kax.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap');
+
+.buttons__btn-sass,
+.buttons__btn-absolutely,
+.buttons__btn-awesome {
   display: inline-block;
   font-family: Roboto Slab, serif;
   font-weight: 600;
