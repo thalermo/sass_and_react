@@ -16,8 +16,8 @@
 // fonts & style
 $fontFamTittle: Roboto Slab, serif;
 $fontFamBody: bilo, sans-serif;
-$fontSizeTittle: 7.5rem;
-$fontSizeSubTittle: 2.5rem;
+$fontSizeTittle: 7rem;
+$fontSizeSubTittle: 2.3rem;
 
 //colors
 $red: red;
@@ -125,8 +125,10 @@ body {
 .user {
   text-align: center;
   margin-top: 1rem;
+
   video {
-    min-width: 50rem;
-    max-width: 55vw;
+    width: 42rem;
+    // max-width: 55vw;
+    // max-height: 50%;
   }
 }
